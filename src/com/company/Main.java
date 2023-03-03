@@ -16,7 +16,12 @@ class Calculator {
     }
 
     double lvl2() {
-        return (a + b) / (a - b);
+        if (a - b != 0) {
+            return (a + b) / (a - b);
+        }
+        else {
+            return 0;
+        }
     }
 
     void lvl3(){
