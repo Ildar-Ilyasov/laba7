@@ -21,6 +21,7 @@ class Calculator {
 
     void lvl3(){
         if (b != 0){
+
             int y = 1;
             for (int i = 1; i<= (a*x)/b; i++){
                 y = y*i;
